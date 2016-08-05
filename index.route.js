@@ -8,6 +8,6 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
       controller: 'verifyEmailCtrl'
    });
 
-   $urlRouterProvider.otherwise('/');
+   $urlRouterProvider.otherwise('/verify');
 
 }]);
